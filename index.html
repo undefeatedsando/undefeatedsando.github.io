@@ -3,8 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+  <link href='https://fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet'>
+<style>
+    body {
+    background-color: ghostwhite;
+    font-family: 'Alegreya Sans'; font-size: 17px;
+    }
+    .header{   
+    font-family: 'Permanent Marker';font-size: 2em;
+    }
+    div{
+        xborder: 1px solid black;
+    }
+    hr {
+	border-top: 2px solid #e1e1e8;
+    }
+    #wrapper{
+        margin-left: auto;
+        margin-right: auto;   
+        width: 60%;
+        display: block;
+    }
+    .content{
+    margin-top: 20px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 -3px 30px rgba(255,133,45,0.27);
+    border-top: 2px solid #fbaf89;
+    }
+    .post-header {
+    box-shadow: 0 0px 5px rgba(60,60,60,0.5);
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e1e1e8;
+    text-shadow: 0px 0px 1px #888;
+    font-family: 'Neucha', serif;
+    margin-bottom: 30px;
+    }
+    .post-text{
+    color: #557;
+    }
+    ul {
+    list-style-image: url('if_circle-checkmark_383161.png');
+    }
+    span{
+        font-family: serif;
+    }
+    a{
+        text-decoration: none;
+        color: #f73;
+        border-bottom: 1px dashed #f73;
+    }
+    a:hover{
+        text-decoration: none;
+        color: #000;
+        border-bottom: none;
+    }
+</style>
 </head>
 <body>
-  <div>Hello</div>
+  <div id="wrapper">
+      <div class="header">UndefeatedSando Blog</div>
+      <div class="content">
+          <div class="post-header">Блоггинг - зло</div>
+          <div class="post-text">Ты делаешь много никому не нужных телодвижений и в итоге оказывается, что все это - просто следствие беспомощностьи и вообще печально быть тобой. Воровать чужие дизайны только и моге.
+          <br>
+          <hr>
+          Из плюсов
+          <ul>
+             <li>Доползли ручки до того, чтобы вспомнить, как работает гит.</li>
+             <li>Научилась использовать Google Fonts API </li>
+             <li>На сайте имени тебя будет хоть что-то кроме куцего <span>Hello</span></li>
+             <ul>
+                 <li>И спертый у <a href="https://deadelf79.github.io">эльфа</a> почти целиком дизайн</li>
+             </ul>
+             <li>Пунктики можно делать иконочками, это восхитительно</li>  
+          </ul>
+          </div>
+      </div>
+  </div>
 </body>
 </html>
